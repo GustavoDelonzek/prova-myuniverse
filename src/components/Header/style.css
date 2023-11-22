@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#menuNavbar .navbar-nav .nav-link:hover{
+    color: #0073ee;
+}
+
+
+.transparent-header {
+    background: rgba(0, 0, 0, 0.123); 
+    position: absolute;
+    width: 100%;
+    z-index: 100; 
+    min-height: max-content;
+}
+
+
+.logo-titulo{
+    font-size: 23px;
+}
+
+.bg-comeco{
+    background-image: url(../../assets/imagens/pexels-eberhard-grossgasteiger-1421903.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.cabecalho{
+    padding: 20px 20px;
+}
+
+.navbar-toggler-icon {
+    color: white; /* Defina a cor como branca */
+}
+
+
+
+.navbar .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.cor-link .nav-link{
+    color: #ffffff;
+}
+
+.caixa{
+   padding: 20px 20px;
+
+}
+
+
+
